@@ -1,0 +1,159 @@
+footer{
+    background-color: rgba(214, 118, 8, 0.889);
+}
+.bdy{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tcolecciones{
+    text-align: center;
+}
+.pcolecciones{
+    margin-top: 3rem;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+.pcoleccionesc{
+    margin-top: 1rem;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.iconomf {
+    display: grid;
+    font-size: 2%;
+    grid-template-columns: repeat(2, 1fr);
+    width: 20%;
+    align-items:flex-end;
+    margin-left: 2em;
+}
+@media screen and (max-width: 400px) {
+    .iconomf {
+        font-size: 50%;
+}}
+.h2ico{
+    font-size: 23px;
+}
+.imgfirstpagemed{
+    width: 22em;
+    height: 30em;
+    align-self: center;
+}
+.imgindex {
+    height: 100vh;
+    background: url(../assets/National_Archaeological_Museum_Athens_09.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h3{
+    text-align: center;
+}
+.posmed{
+    align-items: center;
+    text-align: center;
+}
+
+.fentierro{
+    width: 40em;
+}
+@media screen and (max-width: 400px) {
+    .fentierro {
+        width: 95%;
+}}
+.imgmz{
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.MapForm{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12rem;
+    margin-right: 6rem;
+}
+.reacomodar{
+    display: flex;
+    gap: 3em;
+    align-items: center;
+}
+.mensagefooter{
+    font-size: 120%;
+    color: black;
+    margin-left: 2em;
+}
+
+@media screen and (max-width: 400px) {
+    .reacomodar {
+        display: block;
+}}
+
+
+@media screen and (max-width: 400px) {
+    .imgfirstpagemed {
+        height: 25em;
+        width: 18em;
+        margin-bottom: 1em;
+}}
+
+.EnvEli{
+    display: flex;
+}
+.Map{
+    width: 90%;
+}
+@media screen and (max-width: 400px) {
+    .MapForm {
+        display: block;
+}}
+@media screen and (max-width: 400px) {
+    .Map {
+        width: 125%;
+}}
+.mascara{
+    display: flex;
+    gap: 1rem;
+    text-align: justify;
+}
+.afpaer{
+    display: block;
+    text-align: center;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    p{
+        text-align: justify;
+    }
+
+}
+.fotosaf{
+    display: flex;
+}
+
+@media screen and (max-width: 400px) {
+    .fotosaf {
+        display: block;
+}}
+@media screen and (max-width: 400px) {
+    .afpaer {
+        img{
+            width: 90%;
+        }
+        p{
+            text-align: justify;
+        }
+}}
+.afrpaneros{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#pelicula img{
+    width: 3em;
+    transition: transform 3s, border-radius 3s;
+}
+
+#pelicula img:hover{
+    transform: scale(2);
+    background-color:white;
+    border-radius: 1rem;
+}
