@@ -179,6 +179,16 @@ h3 {
 }
 
 @media screen and (max-width: 400px) {
+  .listaobras {
+    display: flex;
+    font-size: 100%;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 10%;
+    gap: 20%;
+  }
+}
+@media screen and (max-width: 400px) {
   .fotosaf {
     display: block;
     font-size: 100%;
